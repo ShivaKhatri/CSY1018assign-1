@@ -1,0 +1,56 @@
+.art{
+  /* to set background images*/\
+
+     position: fixed;
+      background-image: url(../images/Shiva.jpg);
+      background-repeat:no-repeat;
+      background-size: 100%;
+    }
+.top_secton{
+
+		       }
+.Hover_Nav{
+	     width:100%;
+       max-width: 960px;
+       margin:0 auto;
+			}
+nav{
+     background: #444;
+    }
+    /* this style changes the style of the list */
+nav ul{
+       /* this removes those bullet points*/
+       list-style-type: none;
+       padding: 0;
+
+      }
+nav a{
+       /* this removes those underlines*/
+       text-decoration: none;
+       text-align: center;
+       color: #fff;
+       display: block;
+       padding:10px;
+     }
+     /* this is used for hover effect*/
+nav a:hover{
+  /* we should always use different color than its background */
+            background: #666;
+            }
+/* using different style for different sizes of screen is key to make a  responsive site */
+@media screen and (min-width:768px)
+  {
+    nav ul{
+            display: flex;
+          }
+    nav li{
+            flex: 1 1 0;
+          }
+  }
+  h2{
+    text-align: center;
+  }
+p
+{
+  text-align: center;
+}
