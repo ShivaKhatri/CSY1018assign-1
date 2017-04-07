@@ -1,56 +1,135 @@
-.art{
-  /* to set background images*/\
-
-     position: fixed;
-      background-image: url(../images/Shiva.jpg);
-      background-repeat:no-repeat;
-      background-size: 100%;
-    }
-.top_secton{
-
-		       }
-.Hover_Nav{
-	     width:100%;
-       max-width: 960px;
-       margin:0 auto;
-			}
-nav{
-     background: #444;
-    }
-    /* this style changes the style of the list */
-nav ul{
-       /* this removes those bullet points*/
-       list-style-type: none;
-       padding: 0;
-
-      }
-nav a{
-       /* this removes those underlines*/
-       text-decoration: none;
-       text-align: center;
-       color: #fff;
-       display: block;
-       padding:10px;
-     }
-     /* this is used for hover effect*/
-nav a:hover{
-  /* we should always use different color than its background */
-            background: #666;
-            }
-/* using different style for different sizes of screen is key to make a  responsive site */
-@media screen and (min-width:768px)
+body
   {
-    nav ul{
-            display: flex;
-          }
-    nav li{
-            flex: 1 1 0;
-          }
+    margin:0px;
+    background: url("../images/bc.png") no-repeat;
+    background-size: cover;
   }
-  h2{
-    text-align: center;
+body, html
+  {
+    height: 100%;
   }
-p
-{
+
+.header
+  {
+    background: salmon;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    border: 1px solid white;
+  }
+nav
+  {
+    width:100%;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+  }
+nav div
+  {
+  padding:10px;
+  width:100%;
   text-align: center;
+  }
+nav div a
+  {
+    text-decoration: none;
+    color: black;
+    font-family: "Palanquin Dark";
+  }
+nav div:hover
+  {
+  background-color:#999;
+  border-radius: 15px;
+  }
+.content
+  {
+  text-align: left;
+  border: 1px solid white;
+  }
+
+content p
+  {
+  text-align: center;
+  font-family:"Anton";
+  color:white;
+  margin:0 auto;
+  }
+
+footer
+  {
+  background-color: grey;
+  padding-top: 10px;
+  width:100%;
+  border: 1px solid white;
+  }
+@media all and (min-width: 1024px)
+  {
+header
+  {
+  height:90px;
+  }
+nav
+  {
+  max-width: 900px;
+  }
+content p
+  {
+    font-size: 2em;
+
+  }
+content img
+  {
+    width:70%;
+    padding:0px;
+    display: block;
+    margin: auto;
+  }
+  }
+@media all and (max-width: 1023px)
+  {
+content p
+  {
+    font-size: 2em;
+    padding:0px;
+  }
+content img
+  {
+    width:100%;
+    padding:0px;
+    display: block;
+    margin: auto;
+  }
+  }
+@media all and (max-width: 768px)
+  {
+content p
+  {
+      font-size:1.4em;
+      padding:0px;
+  }
+body
+  {
+    margin:0px;
+  }
+  footer
+  {
+    position: absolute;
+    right:0;
+    left:0;
+    bottom:0;
+  }
+  }
+@media all and (max-width: 321px)
+{
+footer
+{
+  position: absolute;
+  right:0;
+  left:0;
+  bottom:0;
+}
 }
