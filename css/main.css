@@ -1,14 +1,10 @@
+
 body
   {
     margin:0px;
-    background: url("../images/bc.png") no-repeat;
+    background: url("../images/bc.jpg") no-repeat;
     background-size: cover;
   }
-body, html
-  {
-    height: 100%;
-  }
-
 .header
   {
     background: salmon;
@@ -17,7 +13,6 @@ body, html
     align-items: center;
     justify-content: space-around;
     width:100%;
-    border: 1px solid white;
   }
 nav
   {
@@ -33,6 +28,9 @@ nav div
   padding:10px;
   width:100%;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-delay: -1s;
   }
 nav div a
   {
@@ -48,7 +46,7 @@ nav div:hover
 .content
   {
   text-align: left;
-  border: 1px solid white;
+  height:100%;
   }
 
 content p
@@ -58,14 +56,172 @@ content p
   color:white;
   margin:0 auto;
   }
+  div.abt
+  {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+div.top
+{
+  padding:5px;
+  text-shadow: 2px 2px #999;
+  width:90%;
+  background-color: #999;
 
+}
+div.top2
+{
+  font-size: 0.9em;
+}
+div.top3
+{
+  text-align: center;
+  width: 100%;
+  background-color: #999;
+}
+.shiva
+{
+  width:20%;
+  margin:0;
+}
 footer
   {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: grey;
   padding-top: 10px;
   width:100%;
-  border: 1px solid white;
   }
+  footer div
+  {
+    display:flex;
+    justify-content: flex-end;
+    width:30%;
+    align-items: center;
+  }
+  footer p
+  {
+    width: 50%;
+  }
+  .lpart
+  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #444;
+    padding:3px;
+  }
+  .lpart1
+  {
+    width:100%;
+    border:2px solid salmon;
+  }
+  .lpart2
+  {
+    width:40%;
+    border:2px solid salmon;
+  }
+  .lpart3
+  {
+    width:40%;
+    border:2px solid salmon;
+  }
+  .big2
+  {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sub
+  {
+    font-family:"Anton";
+    background-color: white;
+  }
+.fa
+  {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+.fa:hover
+  {
+    opacity: 0.6;
+  }
+.fa-facebook
+  {
+    background: #3B5999;
+    color: white;
+  }
+
+.fa-twitter {
+  background: #55ACEf;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b40;
+  color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin:10px;
+    font-family: "Palanquin Dark";
+    color:white;
+}
+
+td, th {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-delay: -1s;
+}
+td:hover
+{
+  background-color: #999;
+}
+div.contact
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+form
+{
+   width: 50%;
+   padding: 20px 20px;
+   font-family: "Palanquin Dark";
+   color:white;
+   font-size: 1.2em;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+form input
+{
+  width:70%;
+  padding:10px;
+  border-radius: 6px;
+}
+form textarea
+{
+  width:70%;
+  border-radius: 6px;
+}
+form div
+{
+  width:100%;
+}
 @media all and (min-width: 1024px)
   {
 header
@@ -79,7 +235,6 @@ nav
 content p
   {
     font-size: 2em;
-
   }
 content img
   {
@@ -103,33 +258,49 @@ content img
     display: block;
     margin: auto;
   }
+  nav
+  {
+    width:95%;
   }
-@media all and (max-width: 768px)
+  form
+  {
+     width: 75%;
+  }
+  div.lpart3
+  {
+    font-size: 0.7em;
+  }
+  }
+@media all and (max-width: 767px)
   {
 content p
   {
       font-size:1.4em;
       padding:0px;
   }
-body
+  form
   {
-    margin:0px;
+     width: 80%;
   }
-  footer
+  div.top2
   {
-    position: absolute;
-    right:0;
-    left:0;
-    bottom:0;
+    font-size: 0.7em;
   }
+  .big2
+  {
+    flex-flow: row wrap;
   }
-@media all and (max-width: 321px)
-{
-footer
-{
-  position: absolute;
-  right:0;
-  left:0;
-  bottom:0;
-}
+  table
+  {
+      width: 80%;
+  }
+  .lpart
+  {
+    flex-flow: row wrap;
+  }
+  div.lpart3
+  {
+    font-size: 0.9em;
+    width:100%;
+  }
 }
