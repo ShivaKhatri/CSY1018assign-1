@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 body
-  {
+  {/* margin set to 0 so it */
     margin:0px;
     background: url("../images/bc.jpg") no-repeat;
     background-size: cover;
@@ -49,7 +50,7 @@ nav div:hover
   height:100%;
   }
 
-content p
+section p,h1
   {
   text-align: center;
   font-family:"Anton";
@@ -63,28 +64,28 @@ content p
     align-items: flex-start;
   }
 div.top
-{
+ {
   padding:5px;
   text-shadow: 2px 2px #999;
   width:90%;
   background-color: #999;
 
-}
+ }
 div.top2
-{
+ {
   font-size: 0.9em;
-}
+ }
 div.top3
-{
+ {
   text-align: center;
   width: 100%;
   background-color: #999;
-}
+ }
 .shiva
-{
+ {
   width:20%;
   margin:0;
-}
+ }
 footer
   {
   display:flex;
@@ -94,18 +95,27 @@ footer
   padding-top: 10px;
   width:100%;
   }
-  footer div
+footer div a
+  {
+    padding:3px;   
+  }
+footer div a:hover
+  {
+    background-color: dimgray;
+      border-radius: 50%;
+  }
+footer div
   {
     display:flex;
     justify-content: flex-end;
     width:30%;
     align-items: center;
   }
-  footer p
+footer p
   {
     width: 50%;
   }
-  .lpart
+.lpart
   {
     display: flex;
     flex-flow: row wrap;
@@ -113,60 +123,35 @@ footer
     background-color: #444;
     padding:3px;
   }
-  .lpart1
+.lpart1
   {
     width:100%;
     border:2px solid salmon;
   }
-  .lpart2
+.lpart2
   {
     width:40%;
     border:2px solid salmon;
   }
-  .lpart3
+.lpart3
   {
     width:40%;
     border:2px solid salmon;
   }
-  .big2
+.big2
   {
     display:flex;
     flex-direction: row;
     justify-content: center;
   }
-  .sub
+.sub
   {
     font-family:"Anton";
     background-color: white;
   }
-.fa
+.sub:hover
   {
-    padding: 10px;
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-.fa:hover
-  {
-    opacity: 0.6;
-  }
-.fa-facebook
-  {
-    background: #3B5999;
-    color: white;
-  }
-
-.fa-twitter {
-  background: #55ACEf;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b40;
-  color: white;
+      background-color: lightgrey;
 }
 table {
     border-collapse: collapse;
@@ -176,27 +161,27 @@ table {
     color:white;
 }
 
-td, th {
+td, th 
+ {
     border: 5px solid #dddddd;
     text-align: left;
     padding: 8px;
     transition-property: background-color;
     transition-duration: 3s;
     transition-delay: -1s;
-}
+ }
 td:hover
-{
+ {
   background-color: #999;
-}
+ }
 div.contact
-{
+ {
   display:flex;
   flex-direction: column;
   align-items: center;
-
-}
+ }
 form
-{
+ {
    width: 50%;
    padding: 20px 20px;
    font-family: "Palanquin Dark";
@@ -206,22 +191,22 @@ form
    flex-direction: column;
    justify-content: center;
    align-items: center;
-}
+ }
 form input
-{
+ {
   width:70%;
   padding:10px;
   border-radius: 6px;
-}
+ }
 form textarea
-{
+ {
   width:70%;
   border-radius: 6px;
-}
+ }
 form div
-{
+ {
   width:100%;
-}
+ }
 @media all and (min-width: 1024px)
   {
 header
@@ -232,11 +217,11 @@ nav
   {
   max-width: 900px;
   }
-content p
+section p
   {
     font-size: 2em;
   }
-content img
+section img
   {
     width:70%;
     padding:0px;
@@ -246,12 +231,12 @@ content img
   }
 @media all and (max-width: 1023px)
   {
-content p
+section p
   {
     font-size: 2em;
     padding:0px;
   }
-content img
+section img
   {
     width:100%;
     padding:0px;
