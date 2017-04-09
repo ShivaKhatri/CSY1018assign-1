@@ -6,8 +6,8 @@
 
 # Begning of my portfolio site
 Before starting to code for my site, I searched and viewed other portfolios and got some idea how to design my site. Then I noticed many of those sites had simple but beautiful designs, had links to their social media accounts on the footer. This gave me some ideas about how I am going to design and build my site. The websites which inspired me are:
- <http://codybrowndesign.com/#overview>
- <http://www.ayelijah.com/>
+* <http://codybrowndesign.com/#overview>
+* <http://www.ayelijah.com/>
  
 # Development of my portfolio site
 After having few ideas I started to develop my site. First I made some sketches and then wire frame and then started coding for the site. Throught the process of developing I went to [w3school](https://www.w3schools.com/) and [csstricks](https://css-tricks.com/)for the idea of my designs. 
@@ -56,18 +56,18 @@ The design of my webpage have been made as simple as possible. The navigation ba
 I have taken ideas from different sites and then written codes myself to minimize the chance of plagiarism and have been credited or refrenced on this file.
 ### Performance
 I tested my site with [pingdom](https://tools.pingdom.com/) and it showed my site was faster that 98% of other site tested on it.
-![performance]()
+![performance](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/performance.png)
 ## Refrences
 The pages through which I have taken idea or learned some codes have been refrenced below.
-*[w3school](https://www.w3schools.com/)
-*[css tricks](https://css-tricks.com/)
-*[Flexbox](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35)
-*Icons
-..*<http://www.flaticon.com>
-*<https://fonts.google.com>
+* [w3school](https://www.w3schools.com/)
+* [css tricks](https://css-tricks.com/)
+* [Flexbox](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35)
+* Icons
+..* <http://www.flaticon.com>
+* <https://fonts.google.com>
 *background
-..*<http://thepatternlibrary.com/#science>
+..* <http://thepatternlibrary.com/#science>
 *portfolios
-..*<http://codybrowndesign.com/#overview>
-..*<http://www.ayelijah.com/>
+..* <http://codybrowndesign.com/#overview>
+..* <http://www.ayelijah.com/>
 
