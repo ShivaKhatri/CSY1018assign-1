@@ -4,7 +4,7 @@
 body
   {/* margin set to 0 so there won't be lines surrounding on the site */
     margin:0px;
-    background: url("../images/bc.jpg") no-repeat;
+    background: url("../images/bc.png") no-repeat;
     background-size: cover;
   }
 .header
@@ -92,6 +92,10 @@ div.top3
   width:20%;
   margin:0;
  }
+section.content a
+{
+    text-decoration: none;
+}
 footer
   {/*Footer is a parent container and flex have been used and the childs are arranged in a row and are at the center of the parent container*/
   display:flex;
@@ -304,4 +308,9 @@ content p
     font-size: 0.9em;
     width:100%;
   }
+  footer div
+      {
+          width:40%;
+      }
+
 }
