@@ -63,11 +63,11 @@ The pages through which I have taken idea or learned some codes have been refren
 * [css tricks](https://css-tricks.com/)
 * [Flexbox](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35)
 * Icons
-..* <http://www.flaticon.com>
+    <http://www.flaticon.com>
 * <https://fonts.google.com>
 * background
-..* <http://thepatternlibrary.com/#science>
+    <http://thepatternlibrary.com/#science>
 * portfolios
-..* <http://codybrowndesign.com/#overview>
-..* <http://www.ayelijah.com/>
+    <http://codybrowndesign.com/#overview>
+    <http://www.ayelijah.com/>
 
