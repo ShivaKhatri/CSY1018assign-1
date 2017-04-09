@@ -3,6 +3,7 @@
 *Shiva Bahadur Khatri Thapa*
 
 *UN id:16418529*
+[live url to my site](https://shivakhatri.github.io/CSY1018assign-1/)
 
 # Beginning of my portfolio site
 Before starting to code for my site, I searched and viewed other portfolios and got some idea how to design my site. Then I noticed many of those sites had simple but beautiful designs, had links to their social media accounts on the footer. This gave me some ideas about how I am going to design and build my site. The websites which inspired me are:
