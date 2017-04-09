@@ -1,27 +1,30 @@
+/* Google api fonts are being imported*/
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 body
-  {/* margin set to 0 so it */
+  {/* margin set to 0 so there won't be lines surrounding on the site */
     margin:0px;
     background: url("../images/bc.jpg") no-repeat;
     background-size: cover;
   }
 .header
-  {
+  {/*background have been set and class header is the parent container so display:flex have been used here*/
     background: salmon;
     display: flex;
+      /* Flex-flow:row wrap allows the child containers to slide above eachother when there isn't enought space for them on the same row */
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
     width:100%;
   }
 nav
-  {
+  {/* Nav is the parent container so flex have been used on it*/
     width:100%;
     margin:auto;
     background-color: white;
     display: flex;
     justify-content: space-around;
+   /*border-radius have been used to make the edges of the container  curved*/
     border-radius: 15px;
   }
 nav div
@@ -29,6 +32,7 @@ nav div
   padding:10px;
   width:100%;
   text-align: center;
+   /* Transiton have been used so the hover effect looks smooth*/
   transition-property: background-color;
   transition-duration: 3s;
   transition-delay: -1s;
@@ -37,10 +41,11 @@ nav div a
   {
     text-decoration: none;
     color: black;
+   /*Imported api fonts have been used here*/
     font-family: "Palanquin Dark";
   }
 nav div:hover
-  {
+  {/* this gives the hover effect to the divs and the background will change while hovering our pointer over the divs*/
   background-color:#999;
   border-radius: 15px;
   }
@@ -51,14 +56,14 @@ nav div:hover
   }
 
 section p,h1
-  {
+  {/* here the effects below will be applied to the p and h1 which are located inside section and not to other h1 and p*/
   text-align: center;
   font-family:"Anton";
   color:white;
   margin:0 auto;
   }
   div.abt
-  {
+  {/*Here div with class abt is the parent container*/
     display:flex;
     flex-direction: row;
     align-items: flex-start;
@@ -66,7 +71,8 @@ section p,h1
 div.top
  {
   padding:5px;
-  text-shadow: 2px 2px #999;
+  /*here shadow property have been given to the text inside div.top*/
+  text-shadow: 2px 2px #888;
   width:90%;
   background-color: #999;
 
@@ -87,7 +93,7 @@ div.top3
   margin:0;
  }
 footer
-  {
+  {/*Footer is a parent container and flex have been used and the childs are arranged in a row and are at the center of the parent container*/
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -100,12 +106,12 @@ footer div a
     padding:3px;   
   }
 footer div a:hover
-  {
+  {/*this gives the hover effect for the "a" in the footer*/
     background-color: dimgray;
       border-radius: 50%;
   }
 footer div
-  {
+  {/*this is a nested div and flex*/
     display:flex;
     justify-content: flex-end;
     width:30%;
@@ -116,7 +122,7 @@ footer p
     width: 50%;
   }
 .lpart
-  {
+  {/*div with class lpart have been given flex property*/
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -150,7 +156,7 @@ footer p
     background-color: white;
   }
 .sub:hover
-  {
+  {/*hover effet have been given to the container with class sub*/
       background-color: lightgrey;
 }
 table {
@@ -181,7 +187,7 @@ div.contact
   align-items: center;
  }
 form
- {
+ {/*Form is the parent container and flex have been used to manage the position of its child containers*/
    width: 50%;
    padding: 20px 20px;
    font-family: "Palanquin Dark";
@@ -207,6 +213,14 @@ form div
  {
   width:100%;
  }
+div.ldivs
+{
+    display:flex;
+    flex-direction: column;
+    background-color: #444;
+   font-size: 0.6em;
+}
+/*This is for screens larger than 1204px.(large laptops or desktops)*/
 @media all and (min-width: 1024px)
   {
 header
@@ -229,6 +243,7 @@ section img
     margin: auto;
   }
   }
+/*This is for screens smaller than 1203px.(laptops or desktops)*/
 @media all and (max-width: 1023px)
   {
 section p
@@ -256,6 +271,7 @@ section img
     font-size: 0.7em;
   }
   }
+/*This is for screens smaller than 767px.(l-mobile,s-mobile)*/
 @media all and (max-width: 767px)
   {
 content p
@@ -268,7 +284,7 @@ content p
      width: 80%;
   }
   div.top2
-  {
+  {/*the font size will be smmall in this screen below 768px*/
     font-size: 0.7em;
   }
   .big2
