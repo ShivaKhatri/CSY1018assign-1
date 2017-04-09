@@ -65,9 +65,9 @@ The pages through which I have taken idea or learned some codes have been refren
 * Icons
 ..* <http://www.flaticon.com>
 * <https://fonts.google.com>
-*background
+* background
 ..* <http://thepatternlibrary.com/#science>
-*portfolios
+* portfolios
 ..* <http://codybrowndesign.com/#overview>
 ..* <http://www.ayelijah.com/>
 
