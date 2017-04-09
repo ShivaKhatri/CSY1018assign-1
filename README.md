@@ -1,5 +1,7 @@
 *CSY1018assign-1*
+
 *Shiva Bahadur Khatri Thapa*
+
 *UN id:16418529*
 
 # Begning of my portfolio site
@@ -9,6 +11,20 @@ Before starting to code for my site, I searched and viewed other portfolios and 
  
 # Development of my portfolio site
 After having few ideas I started to develop my site. First I made some sketches and then wire frame and then started coding for the site.
-## sketches
+## Sketches
 First I made a basic sketch of my **home**, **curriculum vitae**, **BIO** and **contact** page. A logo at the top left corner of the site and a hovering navigation bar. A picture at the center of the page. Social media links at the bottom of the page with hovering effect. For **BIO** page its just simple design a photo and description about me. Then on the **cv** there are tables and a div which contains my formal information.**contact** page has  a form and below it some info about my loaction and email address.
-
+#### Home and Bio:
+[cv](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/sketches/cv_contact.jpg)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/sketches/home_bio.jpg)
+## Wireframes
+After drawing some sketches I started to build wireframes and the first design was my final design. There are place holders for content. I designed wireframes for both mobile and desktop view.  
+#### Desktop view:
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/desktop_view/bio.png)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/desktop_view/contact.png)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/desktop_view/cv.png)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/desktop_view/home.png)
+#### Mobile view
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/mobile_view/bio.png) 
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/mobile_view/contact.png)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/mobile_view/cv.png)
+[](https://github.com/ShivaKhatri/CSY1018assign-1/blob/master/images/readme/wireframes/mobile_view/home.png)
